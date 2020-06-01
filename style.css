@@ -1,0 +1,118 @@
+@font-face{
+    font-family: iranMarker;
+    src: url(./fonts/IRANMarker.ttf);
+}
+@font-face{
+    font-family: iransansbold;
+    src: url(./fonts/IRANSans_Bold.ttf);
+}
+@font-face{
+    font-family: iransansadi;
+    src: url(fonts/IRANSans_Medium.ttf);
+}
+@font-face{
+    font-family: iransanslight;
+    src: url(fonts/IRANSans_Light.ttf);
+}
+body{
+  background-image: url('images/bg.jpg');
+  background-repeat: no-repeat;  
+  background-size: cover;
+  
+}
+/* @media screen and (max-width: 800px) { 
+    body {
+      background-image: none;
+      background-size: cover;
+    }
+}
+*/
+.box {
+
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    color: white;
+}
+.input1{
+    width: 320px;
+    background-repeat: no-repeat;
+    height: 40px;
+    direction: rtl;
+    font-family: iransanslight;
+    border: none;
+    font-weight: bold;
+    background-color: transparent;
+    border-bottom: 1px white solid;
+
+}
+h1{
+    margin-bottom: -5px;
+    font-size: 75px;
+    font-family: iransansbold;    
+}
+h2{
+    font-size: 30px;
+    font-family: iranMarker;
+}
+label{
+    font-family: iransanslight;
+    float: right;
+    font-size: 14px;
+    margin-right: 220px;
+}
+
+p{
+    float: left;
+    font-family: iransanslight;
+    font-size: 15px;
+    color: white;
+    margin-left: 220px;
+    margin-top: 0;
+    margin-bottom: 0;
+    
+}
+a{ 
+    text-decoration: none;
+}
+a:hover{
+    
+}
+button{
+    background-color: dodgerblue;
+    width: 320px;
+    height: 60px;
+    border-radius: 5px;
+    font-family: iransensadi;
+    margin-bottom: 20px;
+    border: none;
+    color:white;
+    font-weight: bold;
+    font-size: 25px;
+}
+button:hover{
+    background-color:blue;
+}
+::placeholder{
+    color:white;
+    opacity: 1;
+}
+.img1{
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.input1{
+    background-image:
+             url('icons/icon-user.png');
+}
+.input2{
+    background-image: url('icons/password.png');
+}
+.button1{
+    font-family: iransansad;
+}
+.button2{
+    
+}
